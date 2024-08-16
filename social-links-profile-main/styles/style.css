@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: black;
+    margin-top: 10%;
+    padding: 15px;
+}
+
+header img {
+   border-radius: 100px; 
+   width: 120px;
+   height: 120px;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 35px;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    color: hsl(75, 94%, 57%);
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: -7%;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-bottom: -2%;
+}
+
+li {
+    text-decoration: none;
+}
+
+button {
+    width: 350px;
+    height: 50px;
+    margin: 3%;
+    margin-left: -5%;
+    border-radius: 7px;
+    border: 2px solid hsl(0, 0%, 20%);
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+.attribution {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+a {
+    color: hsl(75, 94%, 57%);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
